@@ -1,0 +1,125 @@
+<div id="sidebar">
+
+<!---
+<script language=JavaScript>
+
+OAS_AD('x05');
+//
+</script>
+--->
+
+<div id="bigbox-ad">
+<img src="http://www.where.ca/travel/wp-content/themes/wheretravel-2009/images/advertisement-text.gif" class="ad-text"/>
+<script LANGUAGE="JavaScript1.1" type="text/javascript">
+<!--
+document.write('<scr'+'ipt LANGUAGE="JavaScript1.1" type="text/javascript" SRC="http://oascentral.where.ca/RealMedia/ads/adstream_jx.ads/'+WHERE_AD_PAGE+'/1'+OAS_rns+'@'+WHERE_AD_POS+'!x05"></scr'+'ipt>');
+// -->
+</script>
+</div>
+
+<div class="select-destination">
+    <h4><img src="http://www.where.ca/images/arrow-wht.png" alt="arrow graphic"> Stay, Dine, Do</h4>
+    <p>Find a hotel, restaurant or attraction.</p>
+    <ul>
+    <li class="drop-down-indicator">Choose your destination <img src="http://www.where.ca/images/b_arrowDownBlack.png" alt="drop-down indicator">
+        <ul class="drop-down">
+            <li><a href="/calgary/jump_guide.cfm">Calgary</a></li>
+            <li><a href="/canadianrockies/jump_guide.cfm">Canadian Rockies</a></li>
+            <li><a href="/edmonton/jump_guide.cfm">Edmonton</a></li>
+            <li><a href="/halifax/jump_guide.cfm">Halifax</a></li>
+            <li><a href="/muskoka/jump_guide.cfm">Muskoka</a></li>
+            <li><a href="/ottawa/jump_guide.cfm">Ottawa</a></li>
+            <li><a href="/toronto/jump_guide.cfm">Toronto</a></li>
+            <li><a href="/vancouver/jump_guide.cfm">Vancouver</a></li>
+            <li><a href="/victoria/jump_guide.cfm">Victoria</a></li>
+            <li><a href="/whistler/jump_guide.cfm">Whistler</a></li>
+            <li><a href="/winnipeg/jump_guide.cfm">Winnipeg</a>
+            <li class="last-item"><a href="/alaskayukon/jump_guide.cfm">Alaska &amp; Yukon</a></li>   
+        </ul>
+    </li>  
+    </ul>
+</div>
+
+<a href="http://www.where.ca/index.php/canada/2010/12/14/best-new-restaurants-of-2010/">
+    <img src="http://www.where.ca/images/best-restos-2010-btn2.jpg" alt="Canada's Best Restaurants of 2010. Click to read the list">
+</a>
+
+<div id="current-mag">
+<h4>Current contests</h4>
+
+
+                <div class="contest-listing">
+	                <div id="current-mag-picture"><a href="../calgary/detail_contest.cfm?contest_id=35"><img src="/dynimages/LL21.jpg" width="85" height="60" alt="A Memorable Meal for Two" title="A Memorable Meal for Two" /></a></div>
+                    <p><a class="contest-headline" href="../calgary/detail_contest.cfm?contest_id=35">A Memorable Meal for Two</a> (Calgary)</p>
+                    <div style="clear:both;"></div>
+	            </div>
+
+                <div class="contest-listing">
+	                <div id="current-mag-picture"><a href="../calgary/detail_contest.cfm?contest_id=22"><img src="/dynimages/book12.jpg" width="85" height="60" alt="The Book of the Month" title="The Book of the Month" /></a></div>
+                    <p><a class="contest-headline" href="../calgary/detail_contest.cfm?contest_id=22">The Book of the Month</a> (Calgary)</p>
+                    <div style="clear:both;"></div>
+	            </div>
+
+                <div class="contest-listing">
+
+	                <div id="current-mag-picture"><a href="../calgary/detail_contest.cfm?contest_id=11"><img src="/dynimages/Lowepro85x60.jpg" width="85" height="60" alt="Things I Love About Calgary Photo Contest" title="Things I Love About Calgary Photo Contest" /></a></div>
+                    <p><a class="contest-headline" href="../calgary/detail_contest.cfm?contest_id=11">Things I Love About Calgary Photo Contest</a> (Calgary)</p>
+                    <div style="clear:both;"></div>
+	            </div>
+
+                <div class="contest-listing">
+	                <div id="current-mag-picture"><a href="../vancouver/detail_contest.cfm?contest_id=69"><img src="/dynimages/home2011.jpg" width="85" height="60" alt="MY FAVOURITE VANCOUVER PHOTO CONTEST" title="MY FAVOURITE VANCOUVER PHOTO CONTEST" /></a></div>
+                    <p><a class="contest-headline" href="../vancouver/detail_contest.cfm?contest_id=69">MY FAVOURITE VANCOUVER PHOTO CONTEST</a> (Vancouver)</p>
+
+                    <div style="clear:both;"></div>
+	            </div>
+
+
+
+<!--ADDENDUMS-->
+
+				<div class="contest-listing">
+	                <div id="current-mag-picture"><a href="http://www.where.ca/toronto/where-to-dine/"><img src="/images/where-to-dine.gif" width="85" height="60" alt="Where to Dine 2011: Toronto" title="Where to Dine 2011: Toronto" /></a></div>
+                    <p><a class="contest-headline" href="http://www.where.ca/toronto/where-to-dine/">WHERE TO DINE 2011: Toronto</a></p>
+                    <div style="clear:both;"></div>
+
+	            </div>
+
+				<div class="contest-listing">
+	                <div id="current-mag-picture"><a href="http://www.where.ca/vancouver/where-to-shop/"><img src="/images/where-to-shop.gif" width="85" height="60" alt="Where to Shop 2011: Vancouver" title="Where to Shop 2011: Vancouver" /></a></div>
+                    <p><a class="contest-headline" href="http://www.where.ca/vancouver/where-to-shop/">WHERE TO SHOP 2011: Vancouver</a></p>
+                    <div style="clear:both;"></div>
+	            </div>
+
+				<div class="contest-listing">
+
+	                <div id="current-mag-picture"><a href="http://www.where.ca/vancouver/where-to-dine/"><img src="/images/where-to-dine.gif" width="85" height="60" alt="Where to Dine 2011: Vancouver" title="Where to Dine 2011: Vancouver" /></a></div>
+                    <p><a class="contest-headline" href="http://www.where.ca/vancouver/where-to-dine/">WHERE TO DINE 2011: Vancouver</a></p>
+                    <div style="clear:both;"></div>
+	            </div>
+</div>
+
+
+<div class="divider">
+<img class="ad-text" src="http://media.torontolife.com/img/special-messages.gif" />
+<a href="http://www.vancouvertourismawards.com" target="_blank"><img src="http://www.where.ca/images/vancouvertourism-band.gif" /></a>
+</div>
+
+<!---
+<script language=JavaScript>
+
+OAS_AD('x13');
+//
+</script>
+--->
+
+<div class="divider">
+<img class="ad-text" src="http://www.where.ca/travel/wp-content/themes/wheretravel-2009/images/advertisement-text.gif" /><script LANGUAGE="JavaScript1.1" type="text/javascript">
+<!--
+document.write('<scr'+'ipt LANGUAGE="JavaScript1.1" type="text/javascript" SRC="http://oascentral.where.ca/RealMedia/ads/adstream_jx.ads/'+WHERE_AD_PAGE+'/1'+OAS_rns+'@'+WHERE_AD_POS+'!x13"></scr'+'ipt>');
+// -->
+</script>
+</div>
+
+</div>
+
