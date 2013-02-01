@@ -1,0 +1,790 @@
+/* Begin Meyer CSS Reset v1.0 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; vertical-align:baseline; background:transparent;} body {line-height:1;} ol, ul {list-style:none;} blockquote, q {quotes:none;} blockquote:before, blockquote:after, q:before, q:after {content:''; content:none;}
+:focus {outline:0;}
+ins {text-decoration:none;} del {text-decoration:line-through;}
+table {border-collapse:collapse; border-spacing:0;}
+/* End Meyer CSS Reset v1.0 */
+
+/* IE STYLES */ 
+.IE #content2 {border:1px solid #666;}
+.IE #search {margin-top:80px;}
+.IE #footer #footer-content .flickr-feed li {display:block; float:left; width:75px;}
+.IE7 #search {margin-top:20px;}
+/* End IE STYLES*/ 
+
+/* BASE STYLES */
+body {background:url("http://www.where.ca/images/bg_tileTop.png") repeat-x scroll 0 187px transparent; color:#000; font-family:georgia,serif; font-size:16px; line-height:138%; text-align:left; -webkit-text-size-adjust:none;}
+
+h1, h2 {font-family:"Helvetica Neue",arial,sans-serif;line-height:100%;margin-bottom:11px;border-bottom:1px solid #000; padding-bottom:10px; letter-spacing:0.02em; font-weight:normal;}
+h3, h4, h4 {font-family:"Helvetica Neue",arial,sans-serif;line-height:100%;margin-bottom:11px;padding-bottom:10px; letter-spacing:0.02em; font-weight:normal;}
+
+
+h1 {font-size:32px;}
+h2 {font-size:24px;}
+h3 {font-size:20px;}
+h4 {font-size:16px; text-transform:uppercase;}
+h5 {font-size:12px;}
+
+a:link, a:visited {color:#0097D6; text-decoration:none;}
+a:hover, a:active {color:#0097D6; text-decoration:underline;}
+
+a.other-feature {font-size:12px; font-weight:bold;}
+a.last-feature {font-size:12px; font-weight:bold;}
+a.headline {font-weight:bold;}
+a.contest-headline {font-weight:bold;}
+a.footer-link {margin:0 0 0 2em; font-weight:bold; text-transform:uppercase;}
+
+acronym, abbr, span.caps {cursor:help;}
+acronym, abbr {border-bottom:1px dashed #999;}
+
+blockquote {margin:15px 30px 0 10px; padding-left:20px; border-left:5px solid #ddd;}
+blockquote cite {margin:5px 0 0; display:block;}
+
+.center {text-align:center;}
+
+.hidden {display:none;}
+
+hr {display:none;}
+
+.clearboth {float:left; clear:both;}
+.clear {clear:both;}
+
+.postmetadata ul, .postmetadata li {display:inline; list-style-type:none; list-style-image:none;}
+
+.navigation {display:block; text-align:center; margin:10px 0; height:20px;}
+/* End BASE STYLES*/
+
+
+/* MAJOR CONTAINERS AND STYLES */
+#page {width:1004px; margin:0 auto; text-align:left;}
+
+#content {width:410px; float:left; margin-right:22px; padding:0 0 22px; background:#fff;}
+#content2 {width:650px; float:left; position:relative; padding:15px; margin:11px 22px 22px 0; display:block; background:#fff; letter-spacing:0; -moz-box-shadow:1px 2px 8px #555; -webkit-box-shadow:1px 2px 8px #555; box-shadow:1px 2px 4px #555;}
+
+#content p, #content2 p {margin-bottom:22px;}
+
+#special-offers {float:left; background-color:#EFEFEF; margin-bottom:15px;}
+#special-offers-title {width:220px; float:left; background-image:url(../newimages/2triangle.png); background-position:center right; background-repeat:no-repeat;}
+#special-offers-content {width:530px; float:left; margin:9px 0 0 10px;}
+#special-offers-nav {width:200px; float:left;}
+
+#feature {clear:both;}
+#feature-content {width:546px; float:left;}
+#feature-picture {width:300px; float:left; padding-bottom:2px;}
+
+#feature-spotlight {width:220px; float:left;}
+p.feature-spotlight-listing {margin:5px 10px 10px 10px;}
+
+#newsletter-optin {padding:0 0 10px 0;}
+p.newsletter {margin:5px;}
+#newsletter-input {width:130px; margin:0 5px 0 0;}
+#newsletter-button {width:40px;}
+#free-space-wrapper {margin:10px;}
+
+p.short-listing {padding:8px 0 0 0; border-top:1px dotted #CCC; font-size:12px;}
+
+#where-network-picture {padding:9px; width:310px;}
+#where-network-container {margin:0 15px 0 15px;}
+#where-network-spotlight1 {width:90px; float:left;}
+#where-network-spotlight2 {width:90px; float:left; margin:0 15px 0 15px;}
+#where-network-spotlight3 {width:90px; float:left;}
+#where-network-more {float:left; margin:10px 15px 0 15px; padding:10px 0 0 0;}
+
+#where-network-cities {clear:both; text-align:center; margin:0 15px 0 15px; padding:15px 0 15px 0;}
+
+#promotional-feature-text {padding-top:10px;}
+#local-weather-container {margin:10px;}
+
+#map {border:6px solid #0097D6; height:180px; width:608px; margin-bottom:20px;}
+
+a img:hover, a img:active {border-color:#0097D6 !important;}
+
+ul#sectionLinks {list-style:none; margin:5px 0 8px 0; padding:0; background-color:#fff;}
+ul#sectionLinks li {margin:0.2em 0; padding-right:0.2em;}
+ul#sectionLinks li a {padding-left:10px;}
+ul#sectionLinks li a.current {background-image:url(/images/right_nav_arrow.gif); background-repeat:no-repeat; background-position:left center;}
+ul#sectionLinks li a:hover {background-image:url(/images/right_nav_arrow.gif); background-repeat:no-repeat; background-position:left center; text-decoration:none;}
+
+/* Lists */
+ol li {list-style:decimal outside;}
+
+html>body .entry ul {margin:0 0 22px 0; padding:0 0 0 30px; list-style:none; padding-left:10px; text-indent:-10px;}/* Special stylized non-IE bullets. Do not work in Internet Explorer, which merely default to normal bullets. */
+html>body .entry li {margin:7px 0 8px 10px;}
+
+.entry ul li:before, #sidebar ul ul li:before {content:"\00BB \0020";}
+.entry ol {padding:0 0 0 35px; margin:0;}
+.entry ol li {margin:0; padding:0;}
+
+ul.stylized {font-family:"Helvetica Neue",arial,sans-serif; }
+ul.stylized.col1, ul.stylized.col2, ul.stylized.col3 {float:left;}
+ul.stylized li {list-style:none; color:#0097d6;}
+ul.stylized li span.number {background: url("http://www.where.ca/images/wh-li-blue.png") no-repeat 0 3px; color:#000; display:inline-block;
+font-size:11px; font-weight:bold; height:20px; padding: 0 6px 0 0; width:15px; letter-spacing:-0.06em; text-align:center;}
+
+
+/* Homepage */
+h2.region-map {margin-bottom:0;}
+div.region-map {border-bottom:1px solid #000; margin-bottom:25px; position:relative;}
+div.region-map p {position:absolute; background:#000; color:#FFF; font-family:"Helvetica Neue",arial,sans-serif; font-size:12px; left:0; padding:0 5px; position:absolute;    text-transform:uppercase;}
+div.region-map p a {color:#fff;}
+div.region-map p.the-north {top:88px; left:160px;}
+div.region-map p.west-coast {top:172px; left:40px;}
+div.region-map p.the-west {top:200px; left:135px;}
+div.region-map p.the-prairies {top:218px; left:219px;}
+div.region-map p.central-canada {top:248px; left:380px;}
+div.region-map p.atlantic-canada {top:182px; left:500px;}
+
+#main-features {background:#333; padding:22px 25px 25px 25px; margin-bottom:25px;}
+#main-features dd.slide {background:#333; border:none; width:600px!important; height:340px!important; padding:0!important;}
+#main-features h2 {border-bottom:none; padding-bottom:0; margin:12px 0 6px 0;font-family:georgia,serif;}
+#main-features h2 a {color:#FFF;}
+#main-features p, #main-features #hed-dek p {margin-bottom:0;}
+#main-features #hed-dek p a {color:#DDD;}
+#main-features .skin-default dl.slidedeck {margin:0;}
+
+#whereblog-home {width:408px; float:left; margin-right:22px; margin-bottom:5px;}
+#whereblog-home h3 {border-bottom:medium none; font-size:24px; margin:0 0 25px; padding:0; text-transform:uppercase;}
+#whereblog-home h3 a {color:#000;}
+#whereblog-home h4 {font-family:georgia,serif; font-size:22px; border-bottom:none; text-transform:none;}
+#whereblog-home .story-item h5 a {font-family:"Helvetica Neue",arial,sans-serif; text-transform:uppercase; color:#000;}
+#whereblog-home .read-more {font-size:18px; font-weight: bold; text-align: center; text-transform: uppercase; padding:8px; background:#DAF0F9;}
+
+#location-stories-home {width:208px; margin-bottom:5px;float:left;}
+#location-stories-home h3 {border-bottom: medium none;font-size: 24px;margin: 0 0 25px; padding: 0;text-transform: uppercase;}
+#location-stories-home h4 {font-family:georgia,serif; font-size:15px; line-height:115%; margin-left:97px; border-bottom:none; text-transform:none;}
+#location-stories-home .story-item h5 a {font-family:"Helvetica Neue",arial,sans-serif; text-transform:uppercase; color:#000;}
+#location-stories-home ul li:last-child {border-bottom:none;}
+
+.top-destinations {border-bottom: 1px solid #000; border-top:4px solid #000; margin:25px 0; padding:15px 0; display:table;clear:both;}
+.top-destinations h3 {border-bottom: medium none; font-size:24px;margin: 0 0 10px;padding: 0;text-transform: uppercase;}
+.top-destinations ul.stylized.col1 li, .top-destinations ul.stylized.col2 li, .top-destinations ul.stylized.col3 li {width:210px;}
+.top-destinations ul.stylized span.number {color:#fff;}
+
+.region-guide {display:table;}
+.region-guide ul li {float:left; width:198px; margin:0 20px 20px 0; font-family:"Helvetica Neue",arial,sans-serif;}
+.region-guide ul li.last-item {margin-right:0;} 
+.region-guide ul li img {margin-bottom:5px;}
+.region-guide ul li h4, .region-guide ul li h3 {border-bottom:none; padding:0; margin:0 0 5px 0; font-size:24px; text-transform:uppercase;}
+.region-guide ul li h4 a {color:#000;}
+.region-guide ul li p {font-size:13px; margin-bottom:0!important;} 
+.region-guide ul li.introduction img {float:left; margin-right:2px;} 
+.region-guide ul li.introduction p {color:#666; clear:left;}
+
+/* Images */
+.floatLeft {float:left; padding-right:8px;}
+.floatRight {float:right; padding-right:8px;}
+
+.mediumImage {width:150px; margin-bottom:10px;}
+.mediumImage img {margin-top:5px; margin-bottom:10px; border:1px solid #FFF;}
+
+.smallImage {float:left; margin-right:10px; clear:both;}
+
+.imageCaption {font-size:11px; line-height:13px;}
+.imageCredit {font-size:11px; line-height:13px;}
+
+/* Ads */
+.leaderboard {background-color:#DDD; padding:4px 0; height:90px;}
+.leaderboard .container {width:738px; margin:0 auto; background:url(http://www.where.ca/images/advertisement-text-horiz.gif) 0 8px no-repeat; padding-left:10px;}
+/*.leaderboard .ad-indicator-horiz {float:left; padding:8px 4px 0 0;}*/
+
+.ad-text {margin:3px auto;}
+
+#bigbox-ad {background-color:#ddd; text-align:center; margin-bottom:22px;}
+
+.banner {padding:20px 0 2px; text-align:center;}
+
+#footer-ads {clear:both; background:#ddd;}
+
+/* Content */
+p.first {border-top:0px;}
+p.last {margin:0 10px 15px 5px;}
+p.listing-intro {margin:0 10px 0 0; padding:8px 0 8px 0;}
+
+img.listing-intro-image {float:left; margin:0 5px 0 0;}
+
+.featured-listing {padding:10px 0 0 0; border-bottom:1px dotted #CCC; clear:both;}
+
+#weather {text-align:center; margin:10px auto;}
+#weather object {width:180px; height:110px;}
+/* End MAJOR CONTAINERS AND STYLES */
+
+
+/* HEADER & MAIN NAVIGATION */
+#header {font-family:"Helvetica Neue",arial,sans-serif; height:69px; background:#0097d6; padding-top:20px;}
+#header .container {width:1004px; margin:0 auto;}
+#header h1 {border:none; text-indent:-99999px; width:165px; float:left; padding-bottom:0; margin:0;}
+#header h1 a {background:url(http://www.where.ca/images/where_logo2011.gif) no-repeat; height:60px; display:block;}
+#header img#yrs75 {padding-left:8px; float:left;}
+   
+ul#main-nav {float:left; color:#3abbf1; margin:27px 0 0 40px; padding-bottom:12px;}
+ul#main-nav li, ul#main-nav ul.drop-down li {padding:0; margin:0; list-style-type:none;}
+ul#main-nav a {text-decoration:none; color:#fff; margin:2px 9px 0 9px; display:inline-block;}
+ul#main-nav a:hover {color:#86dbf7;}
+
+ul#main-nav li {float:left; padding:0; margin:0 8px 0 0;}
+ul#main-nav li.drop-down-indicator {background:url(http://www.where.ca/images/b_arrowDownLightBlue.png) no-repeat right top; padding-right:20px; height:25px; margin-right:10px;}
+ul#main-nav li.last-item {margin:0!important; border:none!important;} 
+
+ul#main-nav li ul.drop-down li {border-bottom:1px solid #000; float:none; position:relative;}
+ul#main-nav li ul.drop-down li a {text-indent:0; background:none; color:#000; text-shadow:none; display:block; padding:2px 4px 4px 4px; margin:0; font-size:13px;} 
+ul#main-nav li ul.drop-down li a:hover {background:#000; color:#fff;}
+
+#social {float:right; margin-top:24px;}
+#social a {margin-right:4px; float:left; display:block; height:27px; width:27px; text-indent:-9999em;}
+#social a.fb-icon {background: url(http://www.where.ca/images/b_fb.png) no-repeat 0 0;}
+#social a.fb-icon:hover {background: url(http://www.where.ca/images/b_fb_r.png) no-repeat 0 0;}
+#social a.twitter-icon {background: url(http://www.where.ca/images/b_twitter.png) no-repeat 0 0;}
+#social a.twitter-icon:hover {background: url(http://www.where.ca/images/b_twitter_r.png) no-repeat 0 0;}
+#social a.rss-icon {margin-right:0; background: url(http://www.where.ca/images/b_rss.png) no-repeat 0 0;}
+#social a.rss-icon:hover {margin-right:0; background: url(http://www.where.ca/images/b_rss_r.png) no-repeat 0 0;}
+
+
+    /*DROP DOWN menu styles for all levels*/
+ul#main-nav li ul.drop-down.region, ul#main-nav li ul.drop-down.region li ul.drop-down.province, ul#main-nav li ul.drop-down.region li ul.drop-down.province li ul.drop-down.city {min-width:160px; width:auto!important; width:160px; position:absolute; left:-10000px; border:1px solid #000; margin:0; z-index:9999999; background:#FFF;} /*z-index required for flash ads*/
+    
+ul#main-nav li:hover ul.drop-down.region, ul#main-nav li:hover ul.drop-down.region li:hover ul.drop-down.province, ul#main-nav li:hover ul.drop-down.region li:hover ul.drop-down.province li:hover ul.drop-down.city {left:auto;} /*IE fix for pseudo class*/
+    
+    /*menu styles for province and city levels (2nd and 3rd tier dropdowns)*/
+ul#main-nav li ul.drop-down.region li ul.drop-down.province, ul#main-nav li ul.drop-down.region li ul.drop-down.province li ul.drop-down.city {top:0;}
+ul#main-nav li:hover ul.drop-down.region li:hover ul.drop-down.province, ul#main-nav li:hover ul.drop-down.region li:hover ul.drop-down.province li:hover ul.drop-down.city {margin:-1px 0 0 160px;}
+/* End HEADER & MAIN NAVIGATION */
+
+
+/* SIDEBAR */
+#sidebar {float:right; width:300px; font-size:12px; margin-bottom:22px; font-family:"Helvetica Neue",arial,sans-serif; margin-top:61px;}
+
+#sidebar ul ol li {list-style:decimal outside;}
+#sidebar ul p, #sidebar ul select {margin:5px 0 8px;}
+#sidebar ul ul, #sidebar ul ol {margin:5px 0 0 10px;}
+#sidebar ul ul ul, #sidebar ul ol {margin:0 0 0 10px;}
+#sidebar ul ul li, #sidebar ul ol li {margin:3px 0 0; padding:0;}
+
+#sidebar #searchform #s {width:108px; padding:2px;}
+#sidebar #searchsubmit {margin-left:5px;}
+ 
+#sidebar .divider {background-color:#ccc; 	margin-bottom:22px; text-align:center;}
+
+.select-destination {background:url(http://www.where.ca/images/striped-blue.gif) repeat scroll 0 0 #0097D6; color:#fff; margin-bottom:20px; font-size:16px; display:table;}
+.select-destination h4 {background:#000; display:block; color:#fff; padding:5px; font-size:24px; margin:0;}
+.select-destination h4 img {margin:0 5px 0 0; float:left;}
+.select-destination p {margin:5px 15px 5px 45px; text-transform:uppercase;}
+.select-destination ul li.drop-down-indicator {background:#fff32e; color:#000; text-transform:uppercase; text-align:center; padding:3px 15px 2px 15px; width:240px; margin:0 auto 10px auto; font-size:14px; font-weight:bold; letter-spacing:0.03em;}
+.select-destination ul li.drop-down-indicator img {float:right; margin-top:-2px; padding-left:2px;}
+.select-destination ul li ul.drop-down {min-width:240px; width:auto!important; width:280px; position:absolute; left:-10000px; margin:0!important; z-index:9999999; background:#fff; border:1px solid #000; -moz-box-shadow:0 6px 6px 0 #333; -webkit-box-shadow:0 6px 6px 0 #333; box-shadow:0 6px 6px 0 #333; text-align:left;}     /*z-index required for flash ads*/
+.select-destination ul li ul.drop-down li {border-bottom:1px solid #000; float:none; padding:2px 13px!important;}
+.select-destination ul li ul.drop-down li a {text-indent:0; background:none; color:#000; margin:0; font-size:12px;} 
+.select-destination ul li ul.drop-down .last-item {margin:0; border:none;} 
+.select-destination ul li:hover ul.drop-down, #main-nav li.sfhover ul.drop-down {left:auto;} /*IE fix for pseudo class*/
+
+ul.feed_list li.feed_list {margin-bottom:6px;list-style:disc inside none;}
+
+
+/* MEMBERSHIP */
+#membership-login {margin:0px 3px 0px 3px; width:260px;}
+.membership-login-input {padding:3px 5px 0 0;}
+.login-input {width:100px;}
+.login-button {width:40px;}
+.membership-login-password {padding:0 0 0 6px;}
+
+#membership-benefits {float:left; clear:both; margin:1px 3px 0 3px;}
+/* End MEMBERSHIP */
+
+
+/* MAGAZINE PAGE */
+#mag-cover {width:132px; float:left; margin:0 22px 22px 0;}
+#mag-cover h4 {font-size:12.5px;}
+#mag-cover img {height:175px;}
+/* End MAGAZINE PAGE */
+
+
+/* REGION (incl. provinces) PAGES */
+#location-photo {margin:0 0 -39px -53px; -moz-box-shadow:1px 2px 4px #555; -webkit-box-shadow:1px 2px 4px #555; box-shadow: 1px 2px 4px #555;}
+#location-title {text-transform:uppercase;}
+#location-map {margin:0 0 11px 0;}
+
+.region-info {float:left;margin:4px 22px 11px 0;width:277px;}
+.region-info h3 {text-transform:uppercase;font-size:16px;border-bottom:none;padding:0;margin-bottom:5px;}
+.region-info ul {border-bottom: 1px solid #000;padding-bottom:11px;font-size:14px;}
+.region-info ul.stylized span.number {color:#fff;}
+
+.region-page .region-guide {float:left; width:200px; margin-top:10px;}
+.region-page .region-guide h3, #location-stories .read-more p {border-bottom:medium none; font-size:20px; margin:0 0 5px 0; padding:0 0 16px 0; text-transform:uppercase; font-family:"Helvetica Neue",arial,sans-serif; }
+.region-page .region-guide h3 img, #location-stories .read-more p img {float:left; margin:-3px 0 2px 0;}
+.region-page .region-guide h4{font-size:20px;}
+.region-page .region-guide ul li {margin:0 0 20px 0;}
+
+#location-stories {float:left; width:406px; margin:10px 0 0 10px; padding-left:20px; border-left:1px solid #A2D1E0;}
+#location-stories h3 {text-transform:uppercase; border-bottom:none;}
+#location-stories .story-item {border-bottom:1px solid #A2D1E0; margin-bottom:10px;}
+#location-stories .story-item h4 span {font-size:14px; display:block; color:#0097D6; }
+#location-stories .read-more p {padding:0; margin-top:10px;}
+#location-stories .read-more ul li {font-family:"Helvetica Neue",arial,sans-serif; text-transform:uppercase; margin-left:36px;}
+
+.story-item {clear:both; display:table; border-bottom:1px solid #000; margin-bottom:10px; width:100%;}
+.story-item .story-thumb {float:left;margin:0 10px 10px 0;}
+.story-title {text-transform:none; border:none;font-size:20px;}
+
+/* End REGION AND PROVINCE PAGES */
+
+
+/* LISTINGS */
+#infoBarContainer {	float:right; width:215px; border:1px solid #ddd; margin:0 0 20px 20px;}
+#infoBarContainer2 {float:right; width:300px; margin:0 0 20px; display:table;}
+#listingContainer2 {float:left; width:298px;}
+
+#infoBar {padding:10px; background:#f0f0f0;}
+#infoBar form * {margin-top:2px; margin-bottom:2px;}
+#infoBar ul {list-style-type:none;}
+#infoBar ul li {margin:0;}
+#listingContainer {float:left; width:389px;}
+#listingContainer contHighLight {width:300px!important;}
+.block form {margin:0 5px;}
+
+#featured-listings {margin:20px 0;}
+/* End LISTINGS */
+
+
+/* MISC STYLES */
+#footer {clear:both; font-size:13px; font-family:"Helvetica Neue",arial,sans-serif; background:#000;}
+
+#footer .container {width:1004px; margin:0 auto; display:table;}
+
+#footer #footer-content {padding:10px 3px; display:table; width:1004px; margin:0 auto;}
+
+#footer #footer-content .flickr-feed {margin-bottom:16px;}
+#footer #footer-content .flickr-feed li {display:block; float:left; margin-right:8px;}
+#footer #footer-content .flickr-feed li a {display:block;}
+
+#footer #footer-content .col {width:336px; height:182px; float:left; padding:8px 24px 16px 0; margin-right:24px; border-right:1px dotted #888; }
+#footer #footer-content .col h6 {font-size:14px; font-weight:normal; color:#fff; text-transform:uppercase; margin-bottom:6px; letter-spacing:0.05em;}
+#footer #footer-content .col.destinations {padding-left:20px; width:340px;}
+#footer #footer-content .col.tools {margin-right:0; padding-right:0; border:none; width:210px;}
+#footer #footer-content .col.tools h6 {color:#fff32e;}
+#footer #footer-content .col.tools a {color:#888;}
+#footer #footer-content ul.stylized.col1 li, #footer #footer-content ul.stylized.col2 li {width:170px;}
+
+#footer #footer-text {background:#0097d6; color:#fff; padding:4px 0; text-transform:uppercase; font-size:12px;} 
+#footer #footer-text a {color:#fff; padding-right:24px;}
+#footer #footer-text #copyright {float:right; font-size:9px; line-height:130%;}
+
+.post {clear:both; overflow:hidden; margin-bottom:15px; border-bottom:1px solid #000;}
+
+#search input[type=search] { -moz-appearance:none; -webkit-appearance:none;}
+
+#search {display:block; margin-left:731px; margin-top:80px; width:270px; background:#04517c; z-index:10000; border:1px solid #04517c; clear:both; position:absolute;}
+
+.yhlgt {background-color:#ffff00; padding:0 4px;}
+
+#searchForm input {vertical-align:middle; font-size:14px; font-family:"Helvetica Neue",arial,sans-serif;}
+#searchForm input.text {border:0!important; color:#000; padding:6px 4px; width:230px; line-height:100%; background-color:#fff; height:18px;}
+#search input#searchsubmit {background: url(http://www.where.ca/images/b_arrowNextYellow.png) no-repeat scroll center center transparent; border: 0; height: 30px; width: 25px;}
+	
+#subcategorylist {float:right; width:215px; background-color:#fff; border:1px solid #333; padding:10px; margin-left:10px;}
+.dek {font-size:18px; font-family:georgia,serif; margin-bottom:10px;}
+	
+.twitter {background:transparent url(http://media.torontolife.com/img/twitter-icon-16.gif) no-repeat scroll right top; padding:2px 20px 2px 0;}
+
+.wide a {padding-left:20px; padding-right:20px;}
+
+#travel-rss h3 {clear:left;}
+.travel-thumb {float:left;margin:2px 10px 20px 0;border:2px solid #0097D6;}
+
+#tips {background:#0097D6; padding-bottom:2px; margin-bottom:22px; color:#fff;}
+#tips a {color:#fff;}
+#tips p {padding:4px 7px; font-weight:bold;}
+
+#newsletter-optin h2 {background-color:#000; color:#FFF; font-weight:normal; margin-bottom:8px; padding:3px; text-transform:uppercase; font-size:13px;}
+
+#headerimg {margin:0; padding:12px 0; width:100%;}
+
+.allcities {background-color:#CCC;}
+
+/* End MISC STYLES */
+
+
+/* WORDPRESS POST/PAGE STYLES */
+
+.breadcrumbs {font-size:12px; color:#777; font-family:"Helvetica Neue",arial,sans-serif;}
+
+.metadata {font-size:12px; color:#777; border-bottom:1px solid #ccc; font-family:"Helvetica Neue",arial,sans-serif; }
+
+.post h1 {font-size:48px; margin:18px 0 24px 0; border-bottom:none; padding-bottom:0;}
+
+.post h2 {font-size:32px; margin:18px 0 24px 0; border-bottom:none; padding-bottom:0;}
+
+#content2 .post h6 { display: inline;
+    float: left;
+    font-size: 12px;
+    margin: 25px 16px 0 0;
+    text-transform: uppercase;
+    font-family:"Helvetica Neue",arial,sans-serif;}
+
+#content2 .post h6 a {color: #000000; display: block; padding: 6px 7px 7px 7px; background-color: #FFF32E;}
+
+#content #related {padding:10px; background:#f6f6f6; clear:both; margin:10px 0 10px 0;}	
+#content #related p {font-weight:bold;}
+#content #related li {margin:0; padding:0;}
+
+.entry p {margin-bottom:14px;}
+
+.entry {overflow:hidden; padding-bottom:20px;clear:both;}
+
+div.navigation .previous {float:left;}
+div.navigation .next {float:right;}
+
+.post div.navigation {height:32px; margin:0;}
+.post div.navigation .previous, .post div.navigation .next  {margin-bottom:0!important; padding:6px;}
+.post div.navigation .previous:hover, .post div.navigation .next:hover {background:#dfeff4;}
+.post div.navigation a:hover {text-decoration:none;}
+
+p.postmetadata {clear:both; overflow:hidden; background:#0097D6; color:#fff; padding:4px;}
+p.postmetadata a, p.postmetadata a:active, p.postmetadata a:hover {color:#fff;}
+
+div.user-interaction {clear:both; overflow:hidden; padding:32px 0; margin-top: 16px;text-align:center;}  
+div.user-interaction span.sharethis span {padding-right:2px;}
+
+#content2 #related {padding:10px; border:1px solid #0097D6; margin-top:10px;}
+#content2 #related p, #content2 p.postmetadata {margin-bottom:5px;}
+
+p.postmetadata.category {border-bottom:medium double #999; display:inline; padding:0 0 2px 0;	background:none; margin-right:5px;}
+p.postmetadata.category a {color:#333; padding:0 0 2px 0;}
+p.postmetadata.category a:hover {color:#0097D6; text-decoration:none;}
+p.postmetadata span.tag a {text-transform:uppercase; font-size:11px;}
+p.post-date {color:#999; font-size:12px; margin:5px 0 20px 0;}
+
+.further-reading {border-bottom:1px solid #ccc;}
+.further-reading h4 {border-bottom:none; font-size:24px; padding:8px 0; text-transform:uppercase;background-color: #FFF32E;margin-bottom:4px;}
+.further-reading img.arrow-graphic {float:left; margin-right:6px;padding: 8px 0;}
+.tags {text-transform:uppercase;font-family:"Helvetica Neue",arial,sans-serif;font-size:12px;margin-left:44px;line-height:16px;}
+
+.further-reading .related-posts h5, .further-reading .tags h5 {font-weight:normal; font-size:18px; font-family:"Helvetica Neue",arial,sans-serif; text-transform:uppercase; margin-top:18px;}
+.further-reading .related-posts li {border-right:1px solid #ccc; display:block; float:left; margin:0; padding:6px 8px; font-family:"Helvetica Neue",arial,sans-serif; font-size:13px; height:225px; width:88px; line-height:138%;}
+.further-reading .related-posts li:hover {background:#dfeff4;}
+.further-reading .related-posts li:last-child {border:none;}
+.further-reading .related-posts li a {color:#333333; display:block; text-decoration: none; width:88px;}
+.further-reading .related-posts li a img {padding-bottom:6px;}
+
+.thread-alt {background-color:#f8f8f8;}
+.thread-even {background-color:white;}
+.depth-1 {border:1px solid #ddd;}
+.even, .alt {border-left:1px solid #ddd;}
+
+.commentlist li, #commentform input, #commentform textarea {font:0.9em "Helvetica Neue",arial,sans-serif;}
+.commentlist li ul li {font-size:1em;}
+.commentlist li {font-weight:bold;}
+.commentlist li .avatar {float:right; border:1px solid #eee; padding:2px; background:#fff;}
+.commentlist cite, .commentlist cite a {font-weight:bold; font-style:normal; font-size:1.1em;}
+.commentlist p {font-weight:normal; text-transform:none;}
+
+#commentform p {font-family:"Helvetica Neue",arial,sans-serif;}
+
+.commentmetadata {font-weight:normal;}
+
+.post .pagination {font-size:20px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:4px 0 6px 16px; margin-top:30px;}	
+.post .pagination .page-numbers {margin-left:8px; letter-spacing:8px; font-weight:bold;}
+
+h2.pagetitle {margin-bottom:20px;}
+
+#sidebar h3 {margin:10px 0 10px 0; background-color:#000; color:#FFF; padding:3px; width:150px; font-size:12px; text-transform:uppercase;}
+
+.post h3 {margin-top:30px; margin-bottom:20px;}
+
+.post hr {display:block; clear:both; border:none; border-top:1px solid #000; margin:20px 0;}
+
+p img {	padding:0; max-width:100%;}
+
+img.centered {display:block; margin-left:auto; margin-right:auto;}
+img.alignright {padding:4px; margin:0 0 2px 7px; display:inline;}
+img.alignleft {padding:4px; margin:0 7px 2px 0; display:inline;}
+
+.alignright {float:right;margin-left:16px;}
+.alignleft {float:left;margin-right:16px;}
+
+.alt {margin:0; padding:10px;}
+
+.commentlist {padding:0; text-align:justify;}
+.commentlist li {margin:15px 0 10px; padding:5px 5px 10px 10px; list-style:none;}
+.commentlist li ul li {margin-right:-5px; margin-left:10px;}
+.commentlist p {margin:10px 5px 10px 0;}
+
+.children {padding:0;}
+
+#commentform p {margin:5px 0;}
+
+.nocomments {text-align:center; margin:0; padding:0;}
+.commentmetadata {margin:0; display:block;}
+
+
+#wp-calendar {empty-cells:show; margin:10px auto 0; width:155px;}
+#wp-calendar #next a {padding-right:10px; text-align:right;}
+#wp-calendar #prev a {padding-left:10px; text-align:left;}
+#wp-calendar a {display:block;}
+#wp-calendar caption {text-align:center; width:100%;}
+#wp-calendar td {padding:3px 0; text-align:center;}
+#wp-calendar td.pad:hover {background-color:#fff;}
+
+
+.aligncenter, div.aligncenter {display:block; margin-left:auto; margin-right:auto;}
+
+#content2 .post .entry img {text-align:center; border:1px #ccc solid; padding:12px; margin:8px 8px 16px;-moz-box-shadow:1px 2px 8px #555; -webkit-box-shadow:1px 2px 8px #555; box-shadow:1px 2px 4px #555;}
+
+.wp-caption {text-align:center; border:1px #ccc solid; padding:12px 12px 8px; margin:8px 8px 16px;-moz-box-shadow:1px 2px 8px #555; -webkit-box-shadow:1px 2px 8px #555; box-shadow:1px 2px 4px #555;}
+
+#content2 .post .entry .wp-caption img {margin:0; padding:0; border:0 none;-moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;} 
+
+#content2 .wp-caption p.wp-caption-text {font-size:12px; font-family:"Helvetica Neue",arial,sans-serif; padding:4px 4px 0; margin:0; line-height:138%;}
+
+
+/* = START SLIDESHOW TEMPLATE (POST ATTACHMENT) STYLES */
+body.slideshow {background:#fff; border-top:8px solid #0097D6;}
+body.slideshow #content2 {font-family:"Helvetica Neue",arial,sans-serif; background:#FFF; color:#000; display:block; width:100%;
+ -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none; padding:0; margin:0;}
+body.slideshow .post {clear:left;}
+
+.slideshow a, .slideshow a:visited {text-decoration:none; color:#000;}
+.slideshow a:hover {color:#0097D6;}
+
+/*gallery header*/
+.slideshow .header {overflow:hidden; background:#333; padding:8px 24px 0 24px;}
+.slideshow .header h1 {float:right; margin:4px 0 0 0; border-bottom:none;}
+.slideshow .header h1 a {background:url("http://www.where.ca/images/where-logo-135.png") no-repeat; display:block; height:42px; text-indent:-9999em; width:135px; color:#FFF;}
+.slideshow .header h2 {float:left; width:772px; font-size:20px; margin-top:12px; line-height:24px; border-bottom:none;}
+.slideshow .header h2 a {color:#FFF;}
+.slideshow .header h2 a:hover {color:#0097D6; text-decoration:underline;}
+.slideshow .header span {display:block; float:left; width:33px; height:24px; margin:12px 8px 0 0; background:url("http://www.where.ca/images/arrow-wht.png") no-repeat;}
+
+/*gallery sidebar*/
+.slideshow .sidebar a:hover {text-decoration:underline;}
+
+.slideshow .sidebar {float:right; width:300px; position:relative;}
+.slideshow .sidebar .gallery-nav {border-bottom:1px solid #ddd; overflow:hidden; padding:16px 16px 16px 10px;}
+.slideshow .sidebar .gallery-nav span {float:left; display:block; width:40px; height:40px;}
+.slideshow .sidebar .gallery-nav span.slide-count {font-size:18px; margin:10px 0 0 0; height:24px; width:190px; text-align:center; text-transform:lowercase;}
+
+.slideshow .sidebar .gallery-nav a {background:url("http://www.where.ca/images/arrow-prev.png") no-repeat scroll 0 0; display:block; height:40px; width:40px; text-indent:-9999em;}
+
+.slideshow .sidebar .gallery-nav .previous a {background-image:url("http://www.where.ca/images/arrow-prev-off.png");}
+.slideshow .sidebar .gallery-nav .previous a:hover {background-image:url("http://www.where.ca/images/arrow-prev.png");}
+.slideshow .sidebar .gallery-nav .next a {background-image:url("http://www.where.ca/images/arrow-nxt-off.png");}
+.slideshow .sidebar .gallery-nav .next a:hover {background-image:url("http://www.where.ca/images/arrow-nxt.png");}
+
+.slideshow .sidebar .slide-info {padding:22px 10px 10px 10px; font-family:"Helvetica Neue",arial,sans-serif;}
+.slideshow .sidebar .slide-info a {color:#0097D6;}
+.slideshow .sidebar .slide-info span.title {font-size:16px; line-height:140%; font-weight:bold; color:#000; margin-bottom:12px!important; clear:both; display:block;}
+.slideshow .sidebar .slide-info span.description {font-size:14px; line-height:140%; color:#333; font-weight:normal; display:block; margin-bottom:12px;} /*dek*/
+.slideshow .sidebar .slide-info span.caption {font-size:11px; line-height:140%; color:#666; } /*image credit*/
+
+.slideshow .sidebar .social-media {border-bottom:1px solid #ddd; border-top:1px solid #ddd; padding:10px 0; text-align:center;}
+
+.slideshow .sidebar #back-to-post {font-size:16px; background:#333; padding:10px 0; text-align:center; margin-bottom:22px; border-bottom:1px solid #ddd; height:22px; background:#E5F4FB;}
+.slideshow .sidebar #back-to-post img {display:block; float:left; margin:-3px 8px 0 65px;}
+.slideshow .sidebar #back-to-post a {color:#0097d6; display:block; float:left; text-transform:uppercase;}
+
+.slideshow .sidebar #bigbox-ad {margin:10px 0 8px; padding:8px 0 0;}
+
+/*gallery slide content*/
+.slideshow .post {clear:left;}
+.slideshow #content2 .post {border-bottom:none; margin-top:0; width:638px; padding:10px 21px; float:left; text-align:center;}
+.slideshow .gallery dl.gallery-item dd.gallery-caption {display:none;}
+.slideshow .gallery dl.gallery-item {text-align:left; margin:20px 16px 0 0!important; height:88px; width:88px!important;}
+
+#content2 dl.gallery-item dd.gallery-caption {display:none!important;}
+
+/* END slideshow styles */
+
+/* ... Old Slideshow?? */
+div.slideshow {width:605px; margin:0 10px 0 0;}
+
+div#blog_content div.slideshow h4, div#blog_content div.slideshow p#back-to-post {margin:0 0 0 10px;}
+div#blog_content div.slideshow p.post_metadata {margin:10px 0 15px 0; color:#999; font-family:"Helvetica Neue",arial,sans-serif;}
+div#blog_content div.slideshow p.back-to-post {text-transform:uppercase; float:left; font-weight:bold;}
+
+div.slideshow-content {background-color:#000; text-align:center; padding:20px 10px; clear:both;}
+div.slideshow-content span.description, div.slideshow-content span.caption {text-align:left; margin:5px 0 10px 0; font-family:"Helvetica Neue",arial,sans-serif; font-size:13px; color:#aaa; display:block;}
+div.slideshow-content span.caption {color:#666; margin:0;}
+div.slideshow-content p.title {text-align:left; color:#fff; font-size:18px; margin-top:10px;}
+
+div#blog_content .slide-count {float:left; font-family:"Helvetica Neue",arial,sans-serif; color:#999; margin:0 0 0 143px;}
+div#blog_content .img-navigation {background:#FFF none repeat scroll 0 0; color:#000; float:right; height:20px; text-transform:uppercase; width:145px;}
+
+div#blog_content .gallery-leftnav {background:#FFF none repeat scroll 0 0; float:left; padding:0 10px 0 0;}
+div#blog_content .gallery-rightnav {background:#FFF none repeat scroll 0 0; float:right; padding:0;}
+
+div.slideshow div#blog_content .gallery-leftnav a, div#blog_content .gallery-rightnav a, div.slideshow div#blog_content .gallery-leftnav a, div#blog_content .gallery-leftnav a {font-weight:bold;}
+#gallery-1 dl.gallery-item dt.gallery-icon img {border:1px solid #DDD;margin:0; padding:0; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
+#gallery-1 dl.gallery-item {text-align:left; width:16%;}
+p#read_more {color:#666; font-size:16px; margin-top:10px;}
+div.slideshow {margin-bottom:10px; border-bottom:1px solid #ddd;}
+
+/*comments.php, verify in use*/
+#commentform input {width:170px; padding:2px;	margin:5px 5px 1px 0;}
+#commentform {margin:5px 10px 0 0;}
+#commentform textarea {width:100%;	padding:2px;}
+#respond:after {content:"."; display:block; height:0;  clear:both;  visibility:hidden;}
+#commentform #submit {margin:0 0 5px auto;	float:right;}
+
+
+/* Special Post Styles (Best Restaurants 2010) */
+.post-15324 h3 {margin-top:30px;}
+.post-15324 h3 strong {color:#d2232a;}
+
+/* End WORDPRESS POST/PAGE STYLES */
+
+/* START 404 STYLES */
+.error404#content2 {background:#fff url(http://www.where.ca/images/map-watermark-grey.jpg) no-repeat 20px 20px; font-family:"Helvetica Neue",arial,sans-serif;}
+.error404#content2 p {color:#888;}
+
+.error404#content2 h2 {font-size:90px; font-weight:bold; color:#0097d6; border-bottom:none; letter-spacing:normal; margin:20px 0 0 0; padding:0; line-height:60%;}
+.error404#content2 h2 span {font-size:32px; color:#888; border-bottom:none; letter-spacing:normal; font-weight:normal;}
+.error404#content2 h3 {font-size:32px; color:#0097d6; border-bottom:none; letter-spacing:normal; margin:0 20px 0 0;}
+.error404#content2 h3.hilight {background:#fff32e; padding:5px; margin:0; font-size:26px;}
+.error404#content2 h4 {color:#0097d6; font-size:26px; border-bottom:none; letter-spacing:normal; text-transform:none; padding:0;}
+
+.error404#content2 img#compass-graphic {float:left;}
+ 
+.error404#content2 ol#error-description {color:#888; font-style:italic; margin:20px 80px 50px 20px; font-family:georgia,serif;}
+.error404#content2 ol#error-description li {margin:10px 0;}
+
+.error404#content2 .suggestions {width:320px; float:right;}
+.error404#content2 .suggestions ol li {list-style:none; margin:20px 0;}
+.error404#content2 .suggestions ol li img {float:left; padding:0 5px 40px 0;}
+
+.error404#content2 .further-reading {font-family:georgia,serif; margin-top:50px;}
+.error404#content2 .further-reading h3 {background-color:#0097d6; padding:5px 10px; margin:0 0 20px 0; line-height:100%; color:#fff; clear:both;}
+.error404#content2 .further-reading ol.latest-feed {float:left; width:360px;}
+.error404#content2 .further-reading ol.latest-feed  li {margin:0 0 20px 20px; list-style:none;}
+.error404#content2 .further-reading .suggestions {width:230px; margin-right:20px; float:right;}
+/* End 404 STYLES */
+
+/* CITY WP landing pages */
+#travel-guides {background:#f0f0f0; padding:16px; margin-bottom:24px; font-family:"Helvetica Neue",arial,sans-serif;} 
+#travel-guides h4 {text-transform:none;}        
+#travel-guides p {margin:0 0 8px 0; padding:0; font-size:14px;}
+#travel-guides ul li {display:inline; margin-right:4px; border-right:1px solid #888; padding-right:4px;}
+#travel-guides ul li a {color:#000; font-weight:bold;}
+#travel-guides ul li.last-item {border:none;}
+	    
+
+/* BEGIN WEATHER STYLING */
+#top-header {background:#DDD; height:100px;}
+#top-header .container {width:1004px; margin:0 auto; position:relative;}
+#top-header .container .leaderboard {width:743px; float:left;}
+
+table.wp_wunderground {margin-left:1px; margin-bottom:40px; background:#e8f6fc;}
+table.wp_wunderground caption {font-family:"Helvetica Neue",arial,sans-serif; color:#fff32e; text-align:left; padding:3px 3px 3px 6px; background:rgb(4,81,125); background:rgba(4, 81, 125, 0.8); border-bottom:1px solid #FFF; letter-spacing:0.02em;}
+table.wp_wunderground caption strong {text-transform:uppercase;}
+table.wp_wunderground th {font-family:"Helvetica Neue",arial,sans-serif; font-size:14px; font-weight:normal; text-transform:uppercase; border-right:1px solid #FFF; font-weight:500; padding-top:10px;}
+table.wp_wunderground td {font-size:13px; line-height:1.4; border-right:1px solid #FFF; padding-bottom:10px;}
+
+#top-header .container .weather {background:rgb(212, 238, 248); background:rgba(212, 238, 248, 0.8); position:absolute; top:0; right:0; height:124px; width:237px; -webkit-border-radius:0 0 6px 6px; -moz-border-radius:0 0 6px 6px; border-radius:0 0 6px 6px;}
+#top-header .weather h5 {font-family:"Helvetica Neue",arial,sans-serif; color:#fff32e; text-align:left; background:rgb(4,81,125); background:rgba(4, 81, 125, 0.8); letter-spacing:0.02em; font-size:12px; border-bottom:1px solid #FFF32e; padding:0 0 0 10px;}
+#top-header .weather h5 a {color:#fff32e;}
+#top-header .weather h5 strong {text-transform:uppercase;}
+#top-header .weather table.wp_wunderground {margin-left:0; background:none;}
+#top-header .weather table.wp_wunderground th {font-size:12px; border:none; padding:0; background:rgb(4,81,125); background-color:rgba(4, 81, 125, 0.8); color:#fff;}
+#top-header .weather table.wp_wunderground td {font-size:11px; border:none; padding:0; color:#000;}
+#top-header .weather table.wp_wunderground .wp_wund_conditions {display:none;}
+
+
+/* END WEATHER STYLING */
+
+
+
+/* ======================== (what are these?) =================== */
+    
+#promotional-feature {margin-bottom:20px;} /*Templates folder, new_templates, index.cfm in cdn. rockies*/
+
+#banebar {clear:both; padding:0; margin:0; width:100%; height:21px; position:relative;} /*in variour headers*/
+
+#main {background-color:#FFF;} /*index_edmonton.cfm and other cities, javascript files reference the div*/
+
+#deck {margin-bottom:20px;} /*article feature, jump_feature files, contests.cfm*/
+
+#guidelist {width:184px; float:left; margin:0 22px 22px 0; padding:0 0 22px:font-size:12px; background:#fff;} /*rockies and yukon index.cfm pages*/
+
+#feature-bestin {width:300px;margin-bottom:22px;} /*2009 common folder: sidebear.cfm, old header files*/
+
+
+/* This section was commented as being 'from the old blog' but some styles have been still in use */
+    #newsletter-optin {margin-bottom:8px; width:300px; padding:0 0 10px 0;}
+    p.newsletter {margin:5px;}
+    #newsletter-input {width:130px; margin:0 5px 0 0;}
+    #newsletter-button {width:40px;}
+
+    small {font-family:"Helvetica Neue",arial,sans-serif; font-size:0.9em;}
+
+    div#tagcloud_q p#tagcloud {margin-top:15px; text-align:justify;}
+    div#tagcloud_q p#tagcloud a:hover {text-decoration:underline;}
+
+    small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {color:#888;}
+
+    code {font:1.1em Courier, Fixed;}
+
+    acronym, abbr, span.caps {font-size:0.9em;	letter-spacing:.07em;}
+
+    a:hover {color:#0097D6;text-decoration:underline;}
+
+    #wp-calendar #prev a, #wp-calendar #next a {font-size:9pt;}
+    #wp-calendar a {text-decoration:none;}
+    #wp-calendar caption {font:bold 1.3em "Helvetica Neue",arial,sans-serif; text-align:center;}
+    #wp-calendar th {font-style:normal; text-transform:capitalize;}
+
+    
+/* Begin Form Elements */
+.entry form {text-align:center;} /* This is mainly for password protected posts, makes them look better. */
+select {width:130px;}
+/* End Form Elements */
+
+
+
+/* ======================== TO DITCH EVERYTHING BELOW THIS LINE (?)  =================== */
+
+#mapblue {border:6px solid #0097D6; margin-bottom:20px;}	
+
+#text-links {background:#DDD; padding-bottom:8px;}
+#text-links ul {list-style:disc inside; margin:0 8px;}
+
+.djangoleft {float:left; margin-right:10px;}
+
+#contentContainer p {margin:5px 5px 0.5em;}
+
+ul.leftColumn {clear:both; float:left; padding-left:3px; width:180px; font-size:12px; margin:4px 0 10px 0;}
+ul.rightColumn {margin:1em 0 1em 160px; font-size:12px;}
+
+.sidebarHighlight {background-color:#D2E7FC; border:1px solid #BBCEE1; margin-bottom:10px; padding:5px; font-size:12px;}
+
+#deck p {font-size:15px; margin:8px 0 18px;}
+#contentMain li {padding-bottom:10px;}
+
+#citynav a {color:#fff; padding:0 1px;}
+#theCity {font-size:56px; margin-left:5px;}
+
+#newsletter-optin {margin-bottom:22px; width:300px;}
+#header-membership {margin-bottom:22px; width:300px;}
+#current-mag {margin:22px 0; width:300px;}
+#contests {margin-bottom:22px; width:300px;}
+#flickr-photos {margin-bottom:22px;}
+
+#skyscraper-ad {margin-bottom:22px;}
+
+#current-mag-picture {float:left; margin:0 10px 10px 0;}
+
+#navbar {padding:0 0 7px; height:71px; border-bottom:4px solid #000; margin-bottom:22px;}
+#navbar a {color:#0097d6; display:block; padding:2px 5px; border-right:1px #0097d6 solid; text-decoration:none;}
+#navbar a:hover {color:#999;}
+
+#navbar li {list-style:none; float:left;}
+
+#navbar #all_cities {float:none; text-align:left;}
+#navbar #all_cities a {border-right:none;}
+
+#navbar li.page_item {display:inline;}
+
+#skyscraper-ad {background-color:#ddd; text-align:center;}
+
+#olympics {margin-bottom:10px; border:2px solid #0097D6; padding:10px; background:#f1f1f1;}
+#olympics h2 {font-size:1.2em;}
+.olympics {background:#ff3; padding:12px; margin-bottom:8px;}
+h2.olympics {font-size:40px; margin-bottom:10px;}
+.oly-nav {margin:0 6px 20px 0; float:left;}
+
